@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+}
+
+#bigBox {
+	width: 100%;
+	height: auto;
+}
+
+#menuHead {
+	width: 100%;
+	height: 50px;
+	background: blue;
+}
+
+#menuInterior {
+	width: 960px;
+	height: inherit;
+	background: orange;
+	margin: 0 auto;
+}
+
+/*960px*/
