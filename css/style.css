@@ -1,23 +1,283 @@
+@font-face {
+    font-family: "DINNextLTPro-Black";
+    src: url(../fonts/DINNextLTPro-Black.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "DINNextLTPro-Bold";
+    src: url(../fonts/DINNextLTPro-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "DINNextLTPro-Light";
+    src: url(../fonts/DINNextLTPro-Light.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "DINNextLTPro-Regular";
+    src: url(../fonts/DINNextLTPro-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "DINNextLTPro-UltraLight";
+    src: url(../fonts/DINNextLTPro-UltraLight.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "FrutigerLTStd-Bold";
+    src: url(../fonts/FrutigerLTStd-Bold.otf) format("opentype");
+}
+
 body {
 	margin: 0;
+	font-family: verdana;
+	color: #FFF;
+}
+
+div {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
 }
 
 #bigBox {
 	width: 100%;
 	height: auto;
+	min-width: 960px;
 }
 
 #menuHead {
 	width: 100%;
 	height: 50px;
-	background: blue;
+	text-align: center;
+	color: #FFF;
+	z-index: 2;
 }
 
 #menuInterior {
 	width: 960px;
 	height: inherit;
-	background: orange;
-	margin: 0 auto;
 }
 
+#botonMenu {
+	padding-left: 102px;
+	padding-top: 5px;
+	font-size: 17px;
+}
+
+#contenedorBox {
+	margin-top: 31px;
+	width: inherit;
+	height: auto;
+}
+
+.cabecera {
+	width: 100%;
+}
+
+.home {
+	position: fixed;
+	top: 0px;
+	background: #05DDAD;
+}
+
+.sliderBox {
+	height: 425px;
+	width: inherit;
+	background: #FFF;
+}
+
+.logo {
+	float: left;
+}
+
+.dentroMenu {
+	padding-top: 10px;
+}
+
+.boton {
+	margin-right: 17px;
+	color: #FFF;
+	width: auto;
+	font-family: DINNextLTPro-Regular;
+	font-size: 14pt;
+	letter-spacing: 1px
+}
+
+.activo {
+	border-bottom: 4px solid #FFF;
+}
+
+.info {
+	background: url('../img/bg_menu.png');
+	font-size: 24px;
+	box-shadow: 0px 4px 20px -2px #000;
+}
+
+#menuInterior span {
+	position: relative;
+	top: 10px;
+	font-family: FrutigerLTStd-Bold;
+	letter-spacing: 2px;
+}
+
+.green {
+	background: #00C99C;
+}
+
+.greenLight {
+	background: #05DDAD;
+}
+
+.infoBox {
+	width: 25%;
+	height: 322px;
+	float: left;
+	text-align: center;
+}
+
+.imagen {
+	width: 100%;
+	height: 171px;
+}
+
+.infoTexto {
+	margin-top: 26px;
+	font-family: DINNextLTPro-UltraLight;
+	font-size: 23px;
+}
+
+.plusBox {
+	margin-top: 10px;
+	width: 33px;
+	height: 33px;
+	border: 3px solid #FFF;
+	border-radius: 20px;
+}
+.plusBox span {
+	position: relative;
+	top: -9px;
+	font-size: 38px;
+}
+
+.underPlusBox {
+	margin-top: 11px;
+	font-size: 13px;
+	font-family: DINNextLTPro-Bold;
+	letter-spacing: 1px;
+}
+
+.cajaSocial {
+	height: 436px;
+	width: 50%;
+	float: left;
+	background: url('../img/bg_menu.png');
+	text-align: center;
+}
+
+.footerBox {
+	width: inherit;
+	height: 256px;
+	background: #05D2A4;
+	text-align: center;
+}
+
+.footerInteriorBox {
+	height: 195px;
+	width: 92%;
+	margin-top: 30px;
+	border-top: 1px solid #DEF9F3;
+	border-bottom: 1px solid #DEF9F3;
+	font-family: DINNextLTPro-UltraLight;
+	letter-spacing: 1px;
+}
+
+.footerText {
+	height: 136px;
+	width: 50%;
+	vertical-align: middle;
+	float: left;
+	margin-top: 59px;
+}
+
+.alineaL {
+	text-align: left;
+}
+
+.footerText span {
+	text-decoration: underline;
+}
+
+.redes {
+	font-size: 14px;
+}
+
+.logoSocial {
+	position: relative;
+	width: 452px;
+	height: 232px;
+	margin-top: 94px;
+}
+.logoSocial div {
+	margin-top: 15px;
+	font-family: DINNextLTPro-UltraLight;
+	letter-spacing: 1px;
+	font-size: 35px;
+}
+
+.caja1 {
+	background: url('../img/img_1.jpg');
+	background-position: center;
+}
+
+.caja2 {
+	background: url('../img/img_2.jpg');
+	background-position: center;
+}
+
+.caja3 {
+	background: url('../img/img_3.jpg');
+	background-position: center;
+}
+
+.caja4 {
+	background: url('../img/img_4.jpg');
+	background-position: center;
+}
+
+.fbBox {
+	background: url('../img/bg_fb.jpg');
+	background-position: center;
+}
+
+.twBox {
+	background: url('../img/bg_tw.jpg');
+	background-position: center;
+}
+
+.sharpText {
+	width: 441px;
+	height: auto;
+	text-align: justify;
+}
+
+.landingInfoBox {
+	width: 100%;
+	height: 679px;
+	background: red;
+}
+
+.infoFooter {
+	width: 80%;
+	height: auto;
+	font-size: 12px;
+
+}
+
+.infoFooter h2 {
+	font-weight: 100;
+}
 /*960px*/
