@@ -63,7 +63,7 @@
 						</div>
 						<div class='sabiasSubTitulo2'>Sabías que:</div>
 						<div class='sabiasSubTitluoAmarillo'>
-							Tener un período mensual no es necesario desde el punto de vista médico y fisiológico cuando tomas un método anticonceptivo oral.
+							¿Tener un período mensual no es necesario desde el punto de vista médico y fisiológico cuando tomas un método anticonceptivo oral?
 						</div>
 					</div>
 				</div>

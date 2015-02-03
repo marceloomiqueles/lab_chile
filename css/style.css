@@ -98,6 +98,21 @@ sup {
 	height: auto;
 }
 
+#textoSliderBox {
+	margin-left: 105px;
+	letter-spacing: 1.4px;
+}
+
+#textoSliderBoxTitulo {
+	margin-top: 93px;
+}
+
+#textoSliderBoxSubTitulo {
+	font-size: 27px;
+	margin-left: 49px;
+	font-family: 'DINNextLTPro-Light'
+}
+
 .cabecera {
 	width: 100%;
 }
@@ -178,7 +193,7 @@ sup {
 .infoTexto {
 	margin-top: 26px;
 	font-family: DINNextLTPro-Light;
-	font-size: 23px;
+	font-size: 25px;
 }
 
 .plusBox {
@@ -354,12 +369,13 @@ sup {
 
 .sabiasSubTitulo {
 	width: auto;
+	margin-top: 25px;
 }
 
 .sabiasSubTituloTexto {
 	width: 510px;
-	font-size: 22px;
-	margin-top: 30px;
+	font-size: 25px;
+	margin-top: 26px;
 }
 
 .sabiasSubTitulo div {
@@ -376,6 +392,7 @@ sup {
 	width: 390px;
 	color: #CDD73C;
 	margin-top: 15px;
+	font-size: 16px;
 }
 
 .ciertoEncBox {
@@ -415,6 +432,7 @@ sup {
 
 .ciertoYellowIntTextoBox {
 	width: 87%;
+	font-size: 18px;
 	margin-top: 23px;
 	font-family: DINNextLTPro-Light;
 }
@@ -449,7 +467,7 @@ sup {
 	width: 138px;
 	text-align: left;
 	float: left;
-	font-size: 13px;
+	font-size: 16px;
 	margin-left: 39px;
 }
 
@@ -497,7 +515,7 @@ sup {
 
 .regimenSecondBox {
 	width: 100%;
-	height: 200px;
+	height: 255px;
 	border-top: 4px solid #FCEB00;
 	border-bottom: 4px solid #FCEB00;
 	color: #FCEB00;
@@ -511,8 +529,8 @@ sup {
 
 .regimenType {
 	font-family: DINNextLTPro-MediumItalic;
-	margin-top: 68px;
-	font-size: 19px;
+	margin-top: 50px;
+	font-size: 22px;
 	letter-spacing: 1px;
 }
 
@@ -535,8 +553,7 @@ sup {
 .regimenTerIntBox {
 	width: 879px;
 	height: 154px;
-	margin-top: 43px;
-
+	margin-top: 17px;
 	text-align: left;
 }
 
@@ -560,7 +577,7 @@ sup {
 	margin-left: 33px;
 	margin-top: 10px;
 	font-family: DINNextLTPro-Light;
-	font-size: 17px;
+	font-size: 18px;
 }
 
 

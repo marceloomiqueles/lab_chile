@@ -54,7 +54,12 @@
 				</div>
 			</div>
 			<div id='contenedorBox'>
-				<div id='home' class='sliderBox'>&nbsp;</div>
+				<div id='home' class='sliderBox'>
+					<!-- <div id='textoSliderBox' class='sabiasIntBox'>
+						<div id='textoSliderBoxTitulo' class='sabiasTitulo'>¿Sabías que...?</div>
+						<div id='textoSliderBoxSubTitulo' class='sabiasSubTitulo'>No necesitas tener un período menstrual mes a mes cuando tomas anticonceptivos orales...</div>
+					</div> -->
+				</div>
 				<div id='informacion' class='cabecera'>
 					<div id='menuHead' class='info'>
 						<div id='menuInterior'>
@@ -146,12 +151,11 @@
 			</div>
 			<div class='footerBox'>
 				<div class='footerInteriorBox'>
-					<div class='footerText alineaL redes'>
-						<!-- contacto@tuvidatusreglas.cl
+					<div class='infoFooter'>
+						<h2>Ser práctica Te brinda más libertad</h2>
+						Referencias:
 						<br>
-						+569 831 77 818
-						<br>
-						<span>facebook / twitter</span> -->
+						1.Snow R, Hardy E, Kneuper E, Hebling EM, Hall G. Women’s responses to menses and nonbleeding intervals in the USA, Brazil and Germany. Contraception. 2007; 76(1):23-29. 2. Szarewski A., Mansour D., Shulman L. 50 years of “The Pill”: celebrating a golden anniversary. J Fam Plann Reprod Health Care 2010; 36(4): 231–238. 3. Ferrero S. et al. What is the desired menstrual frequency of women without menstruation-related symptoms? Contraception 2006;73: 537– 541. 4. Edelman A. et al. Continuous versus cyclic use of combined oral contraceptives for contraception: systematic Cochrane re- view of randomized controlled trials. Human Reproduction 2006. Vol.21, No.3 pp. 573–578. 5. SULAK PJ et al. Hormone Withdrawal Symptoms in Oral Contraceptive Users. Obstetrics & Gynecology 2000. vol. 95, no. 2, february 2000. 6. Anderson FD, et al. Contraception. 2006;73:229-234. 7. Vandever MA, Kuehl TJ, Sulak PJ, et al. Evaluation of pituitary - ovarian axis supression with three oral contraceptive regimens. Contraception 2008; 77: 162 - 170. 8. Davis Ar, et al. Fertil Steril. 2008; 89: 1059 - 1063
 					</div>
 				</div>
 			</div>
