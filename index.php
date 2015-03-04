@@ -55,10 +55,10 @@
 			</div>
 			<div id='contenedorBox'>
 				<div id='home' class='sliderBox'>
-					<!-- <div id='textoSliderBox' class='sabiasIntBox'>
+					<div id='textoSliderBox' class='sabiasIntBox'>
 						<div id='textoSliderBoxTitulo' class='sabiasTitulo'>¿Sabías que...?</div>
 						<div id='textoSliderBoxSubTitulo' class='sabiasSubTitulo'>No necesitas tener un período menstrual mes a mes cuando tomas anticonceptivos orales...</div>
-					</div> -->
+					</div>
 				</div>
 				<div id='informacion' class='cabecera'>
 					<div id='menuHead' class='info'>
